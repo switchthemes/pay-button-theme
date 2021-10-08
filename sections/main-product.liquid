@@ -1,0 +1,13 @@
+{{ product.title }}
+
+{% form 'product', product %}
+  <div style="margin-top: 2rem; max-width: 300px;">
+    {{ form | payment_button }}
+  </div>
+{% endform %}
+
+{% schema %}
+{
+  "name": "Product"
+}
+{% endschema %}

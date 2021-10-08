@@ -1,0 +1,7 @@
+README.md
+package.json
+.prettierrc
+.gitignore
+.theme-check.yml
+*.config.js
+node_modules/**/*.*
